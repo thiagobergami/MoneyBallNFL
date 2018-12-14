@@ -86,10 +86,10 @@ install.packages('plyr')
 
 install.packages('dplyr')
 library('dplyr')
-resultado <- t1%>%full_join(t2)%>%full_join(t3)%>%full_join(t4)%>%full_join(t5)%>%full_join(t6)%>%full_join(t7)%>%full_join(t8)%>%full_join(t9)%>%full_join(t10)%>%full_join(t11)%>%full_join(t12)%>%full_join(t13)%>%full_join(t14)%>%full_join(t15)%>%full_join(t16)%>%full_join(t17)%>%full_join(t18)%>%full_join(t19)%>%full_join(t20)%>%full_join(t21)%>%full_join(t22)%>%full_join(t23)%>%full_join(t24)%>%full_join(t24)%>%full_join(t25)%>%full_join(t26)%>%full_join(t27)%>%full_join(t28)%>%full_join(t29)%>%full_join(t30)%>%full_join(t31)
+resultado <- t1%>%full_join(t2)%>%full_join(t3)%>%full_join(t4)%>%full_join(t5)%>%full_join(t6)%>%full_join(t7)%>%full_join(t8)%>%full_join(t9)%>%full_join(t10)%>%full_join(t11)%>%full_join(t12)%>%full_join(t13)%>%full_join(t14)%>%full_join(t15)%>%full_join(t16)%>%full_join(t17)%>%full_join(t18)%>%full_join(t19)%>%full_join(t20)%>%full_join(t21)%>%full_join(t22)%>%full_join(t23)%>%full_join(t25)%>%full_join(t26)%>%full_join(t27)%>%full_join(t28)%>%full_join(t29)%>%full_join(t30)%>%full_join(t32)%>%full_join(t31)%>%full_join(t24)
 
 View(resultado)
 
 install.packages('openxlsx')
 library('openxlsx')
-write.xls(resultado, '2009.xls')
+write.xls(resultado, '2010.xls')
