@@ -46,7 +46,7 @@ while(linha<=length(matriz)){
   download(paste("https://maddenratings.weebly.com/uploads/1/4/0/9/14097292/", matriz[linha], sep=""), matriz[linha], mode = "wb")
   linha<-linha+1
 }
-  
+
 
 t1["champ"]<-c("0")
 t2["champ"]<-c("0")
