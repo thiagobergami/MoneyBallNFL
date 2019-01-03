@@ -55,3 +55,4 @@ contour(x1, x2, matrix(as.numeric(y_grid), length(x1), length(x2)), add = TRUE)
 points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
 points(set, pch = 21, bg = ifelse(set[,3] == 1, 'green4', 'red3'))
 
+test["prob"]<-c(esse_ano)
